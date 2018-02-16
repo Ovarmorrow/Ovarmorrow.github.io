@@ -1,0 +1,25 @@
+{
+  "name": "ovarmorrow.github.io",
+  "version": "1.0.0",
+  "description": "ResumeHTML",
+  "main": "index.js",
+  "scripts": {
+    "start": "run-script-os",
+    "start:win32": "browser-sync start --server --files '/*.css, /.html, **/.js, !node_modules/*/' --directory --port 7777",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ovarmorrow/Ovarmorrow.github.io.git"
+  },
+  "author": "Ovarmorrow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ovarmorrow/Ovarmorrow.github.io/issues"
+  },
+  "homepage": "https://github.com/Ovarmorrow/Ovarmorrow.github.io#readme",
+  "dependencies": {
+    "browser-sync": "^2.23.6",
+    "run-script-os": "^1.0.3"
+  }
+}
