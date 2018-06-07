@@ -140,7 +140,7 @@ a > i.fab {
   position: inherit;
   bottom: 14%;
   left: 47%;
-  background-color: #ffc687f7;
+  background-color: #4264b8;
   font-size: 16px;
   border-radius: 8px;
   z-index: 1;
@@ -149,7 +149,7 @@ a > i.fab {
   -webkit-box-shadow: 0 10px 6px -6px #777;
   -moz-box-shadow: 0 10px 6px -6px #777;
   box-shadow: 0 10px 6px -6px #777;
-  color: black;
+  color: #efefef;
   font-size: larger;
   font-family: brandon-grotesque;
   padding: 2px 5px;
