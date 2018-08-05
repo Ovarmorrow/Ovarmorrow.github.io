@@ -86,7 +86,6 @@ div {
   line-height: 1;
   letter-spacing: 0.06em;
   font-weight: 300;
-  
   font-family: 'Kavivanar', cursive;
   margin-bottom: 0;
   margin-top: 28px;
@@ -124,15 +123,13 @@ div {
   left: 46.5%;
   letter-spacing: 3px;
   z-index: 1;
-  
-
 }
 
 .social-media>ul>li {
   font-size: 2em;
 }
 
-a > i.fab {
+a>i.fab {
   color: #353535;
 }
 
@@ -145,6 +142,7 @@ a > i.fab {
   border-radius: 8px;
   z-index: 1;
 }
+
 .Resume-Site a {
   -webkit-box-shadow: 0 10px 6px -6px #777;
   -moz-box-shadow: 0 10px 6px -6px #777;
@@ -153,5 +151,21 @@ a > i.fab {
   font-size: larger;
   font-family: brandon-grotesque;
   padding: 2px 5px;
+}
 
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+/* Handheld Devices */
+
+@media (max-width: 768px) {
+  .Resume-Site {
+    left: 34.5%;
+  }
+
+  .social-media {
+    left: 31.5%;
+  }
 }
