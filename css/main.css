@@ -168,4 +168,12 @@ footer {
   .social-media {
     left: 31.5%;
   }
+
+  .name {
+    font-size: 32px;
+  }
+
+  .byline {
+    font-size: 13px;
+  }
 }
